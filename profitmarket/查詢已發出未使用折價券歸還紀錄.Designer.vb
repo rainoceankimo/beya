@@ -32,16 +32,16 @@ Partial Class 查詢已發出未使用折價券歸還紀錄
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(49, 93)
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 91)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(537, 290)
+        Me.DataGridView1.Size = New System.Drawing.Size(489, 290)
         Me.DataGridView1.TabIndex = 0
         '
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(289, 44)
+        Me.ComboBox2.Location = New System.Drawing.Point(200, 43)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(110, 20)
         Me.ComboBox2.TabIndex = 7
@@ -50,7 +50,7 @@ Partial Class 查詢已發出未使用折價券歸還紀錄
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(123, 43)
+        Me.ComboBox1.Location = New System.Drawing.Point(39, 43)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(127, 20)
         Me.ComboBox1.TabIndex = 6
@@ -58,7 +58,7 @@ Partial Class 查詢已發出未使用折價券歸還紀錄
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(431, 41)
+        Me.Button2.Location = New System.Drawing.Point(360, 40)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 5
@@ -69,7 +69,7 @@ Partial Class 查詢已發出未使用折價券歸還紀錄
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(636, 462)
+        Me.ClientSize = New System.Drawing.Size(513, 393)
         Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Button2)

@@ -32,7 +32,7 @@ Partial Class 查詢店家購買折價券紀錄
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(472, 38)
+        Me.Button2.Location = New System.Drawing.Point(435, 35)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 5
@@ -42,7 +42,7 @@ Partial Class 查詢店家購買折價券紀錄
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(38, 72)
+        Me.DataGridView1.Location = New System.Drawing.Point(3, 74)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(498, 307)
@@ -52,7 +52,7 @@ Partial Class 查詢店家購買折價券紀錄
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("新細明體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Label1.Location = New System.Drawing.Point(244, 42)
+        Me.Label1.Location = New System.Drawing.Point(209, 36)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(16, 16)
         Me.Label1.TabIndex = 9
@@ -60,14 +60,14 @@ Partial Class 查詢店家購買折價券紀錄
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(38, 38)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(3, 36)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 22)
         Me.DateTimePicker1.TabIndex = 12
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(266, 38)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(229, 34)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(200, 22)
         Me.DateTimePicker2.TabIndex = 13
@@ -76,7 +76,7 @@ Partial Class 查詢店家購買折價券紀錄
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(574, 437)
+        Me.ClientSize = New System.Drawing.Size(513, 393)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Label1)
