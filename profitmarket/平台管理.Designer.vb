@@ -78,6 +78,7 @@ Partial Class 平台管理
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Name = "平台管理"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "平台管理"
         Me.ResumeLayout(False)
 

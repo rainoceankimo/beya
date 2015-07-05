@@ -81,6 +81,7 @@ Partial Class 登入
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "登入"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "登入"
         Me.ResumeLayout(False)
         Me.PerformLayout()

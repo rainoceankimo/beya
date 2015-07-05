@@ -27,6 +27,7 @@ Partial Class 查詢店家購買折價券紀錄
         Me.Label1 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -72,17 +73,28 @@ Partial Class 查詢店家購買折價券紀錄
         Me.DateTimePicker2.Size = New System.Drawing.Size(200, 22)
         Me.DateTimePicker2.TabIndex = 13
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(3, 7)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 14
+        Me.Button3.Text = "返回"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         '查詢店家購買折價券紀錄
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(513, 393)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button2)
         Me.Name = "查詢店家購買折價券紀錄"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "查詢店家購買折價券紀錄"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -94,4 +106,5 @@ Partial Class 查詢店家購買折價券紀錄
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
     Friend WithEvents DateTimePicker2 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents Button3 As System.Windows.Forms.Button
 End Class

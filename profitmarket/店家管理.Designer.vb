@@ -29,6 +29,7 @@ Partial Class 店家管理
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Button4 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -93,11 +94,21 @@ Partial Class 店家管理
         Me.TextBox2.TabIndex = 6
         Me.TextBox2.Text = "店家名稱"
         '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(441, 285)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(60, 23)
+        Me.Button4.TabIndex = 7
+        Me.Button4.Text = "返回"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
         '店家管理
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(513, 393)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -106,6 +117,7 @@ Partial Class 店家管理
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Name = "店家管理"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "店家管理"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -119,4 +131,5 @@ Partial Class 店家管理
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents Button4 As System.Windows.Forms.Button
 End Class

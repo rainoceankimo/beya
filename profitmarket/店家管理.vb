@@ -11,4 +11,9 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        平台管理.Show()
+        Me.Hide()
+    End Sub
 End Class
